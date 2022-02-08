@@ -1,0 +1,210 @@
+:root {
+  --primary-font-family:'Roboto Slab', serif;
+  --secondary-font-family:'Raleway', sans-serif;
+  --primary-text-color-theme-dark:rgba(255, 255, 255, 0.6);
+  --secondary-text-color-theme-dark: #FFFFFF;
+  --primary-text-color-theme-light:#757575;
+  --secondary-text-color-theme-light: #212121;;
+  --accent-color:#2196F3;
+}
+body {
+  font-family: var(--primary-font-family);
+  background-color:var(--secondary-text-color-theme-dark); 
+}
+.logo {
+font-family: var(--secondary-font-family);
+font-style: normal;
+font-weight: bold;
+font-size: 26px;
+line-height: 1.19;
+/* identical to box height */
+letter-spacing: 0.03em;
+color: var(--accent-color);
+}
+.logo-black {
+  font-family:var(--secondary-font-family);
+font-style: normal;
+font-weight: bold;
+font-size: 26px;
+line-height: 1.19;
+/* identical to box height */
+letter-spacing: 0.03em;
+color: #000000;;
+}
+.logo-white {
+  font-family: var(--secondary-font-family);
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.19;
+  /* identical to box height */
+  letter-spacing: 0.03em;
+  color: var(--secondary-text-color-theme-dark);
+}
+
+.list {
+  list-style: none;
+}
+.link { 
+  text-decoration: none;
+}
+/*Шапка*/
+.site-nav .link {
+  color: var(--secondary-text-color-theme-light);
+}
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: var(--accent-color);
+}
+.text {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  /* or 171% */
+  letter-spacing: 0.03em;
+  color: var(--primary-text-color-theme-light);
+}
+.page-header {
+  background-color: var(--secondary-text-color-theme-dark);
+}
+.title {
+  font-style: normal;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--secondary-text-color-theme-dark);
+  }
+.site-nav-link {
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.02em;
+color: var(--primary-text-color-theme-light);
+}
+.contact-number {
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.02em;
+color: var(--primary-text-color-theme-light);
+}
+.contact-number:hover,
+.contact-number:focus {
+  color: var(--accent-color);
+}
+.contact-mail {
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.02em;
+color: var(--primary-text-color-theme-light);
+}
+.contact-mail:hover,
+.contact-mail:focus {
+  color: var(--accent-color);
+}
+.modal-btn {
+font-style: normal;
+font-weight: bold;
+font-size: 16px;
+line-height: 1.88;
+background-color:var(--accent-color);
+color: var(--secondary-text-color-theme-dark);
+}
+.modal-btn-portfolio {
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 1.62;
+/* identical to box height, or 162% */
+text-align: center;
+letter-spacing: 0.03em;
+color: var(--secondary-text-color-theme-light);
+}
+.modal-btn-portfolio:hover,
+.modal-btn-portfolio:focus {
+ background:var(--accent-color);
+/* shadow-middle */
+box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+border-width: 4px;
+color:var(--secondary-text-color-theme-dark);
+}
+.hero {
+  background-color:  #2F303A;
+}
+.commands {
+font-style: normal;
+font-weight: bold;
+font-size: 36px;
+line-height: 1.24;
+text-align: center;
+letter-spacing: 0.03em;
+color: var(--secondary-text-color-theme-light);
+}
+.commands-item {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--secondary-text-color-theme-light);
+}
+.name {
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 1.19;
+/* identical to box height */
+text-align: center;
+letter-spacing: 0.03em;
+color: var(--secondary-text-color-theme-light);
+}
+.text-name {
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 1.19;
+/* identical to box height */
+text-align: center;
+letter-spacing: 0.03em;
+color: var(--primary-text-color-theme-light);
+}
+.footer {
+  background-color: #2F303A;
+}
+.address {
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 1.71;
+/* or 171% */
+letter-spacing: 0.03em;
+color:var(--secondary-text-color-theme-dark);
+}
+.address-footer {
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 1.71;
+/* or 171% */
+letter-spacing: 0.03em;
+color: var(--primary-text-color-theme-dark);
+}
+.work {
+  background-color: #FFFFFF;
+}
+.about-commanda {
+  background-color: #F5F4FA;
+}
+.cell {
+ background: #FFFFFF;
+border: 1px solid #EEEEEE;
+}
