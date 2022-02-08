@@ -1,19 +1,25 @@
 :root {
-  --primary-font-family:'Roboto Slab', serif;
+  --primary-font-family:'Roboto', sans-serif;
   --secondary-font-family:'Raleway', sans-serif;
   --primary-text-color-theme-dark:rgba(255, 255, 255, 0.6);
   --secondary-text-color-theme-dark: #FFFFFF;
   --primary-text-color-theme-light:#757575;
-  --secondary-text-color-theme-light: #212121;;
+  --secondary-text-color-theme-light: #212121;
+  --primary-logo-color: #000000;
+  --primary-about-commanda: #F5F4FA;
+  --site-nav-activ-color: red; 
+  --primary-hero-color: #2F303A;
+  --secondary-cell-color: #EEEEEE;
   --accent-color:#2196F3;
 }
 body {
   font-family: var(--primary-font-family);
+  font-style: normal;
+  font-size: 14px;
   background-color:var(--secondary-text-color-theme-dark); 
 }
 .logo {
 font-family: var(--secondary-font-family);
-font-style: normal;
 font-weight: bold;
 font-size: 26px;
 line-height: 1.19;
@@ -23,17 +29,15 @@ color: var(--accent-color);
 }
 .logo-black {
   font-family:var(--secondary-font-family);
-font-style: normal;
 font-weight: bold;
 font-size: 26px;
 line-height: 1.19;
 /* identical to box height */
 letter-spacing: 0.03em;
-color: #000000;;
+color: var(--primary-logo-color)
 }
 .logo-white {
   font-family: var(--secondary-font-family);
-  font-style: normal;
   font-weight: bold;
   font-size: 26px;
   line-height: 1.19;
@@ -56,10 +60,11 @@ color: #000000;;
 .site-nav .link:focus {
   color: var(--accent-color);
 }
+.site-nav .link:active {
+  color: var(--site-nav-activ-color);
+}
 .text {
-  font-style: normal;
   font-weight: 400;
-  font-size: 14px;
   line-height: 1.71;
   /* or 171% */
   letter-spacing: 0.03em;
@@ -69,7 +74,6 @@ color: #000000;;
   background-color: var(--secondary-text-color-theme-dark);
 }
 .title {
-  font-style: normal;
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
@@ -78,18 +82,11 @@ color: #000000;;
   text-transform: uppercase;
   color: var(--secondary-text-color-theme-dark);
   }
-.site-nav-link {
-font-style: normal;
+.site-nav-link,
+.contact-number,
+.contact-mail
+ {
 font-weight: 500;
-font-size: 14px;
-line-height: 1.14;
-letter-spacing: 0.02em;
-color: var(--primary-text-color-theme-light);
-}
-.contact-number {
-font-style: normal;
-font-weight: 500;
-font-size: 14px;
 line-height: 1.14;
 letter-spacing: 0.02em;
 color: var(--primary-text-color-theme-light);
@@ -98,28 +95,19 @@ color: var(--primary-text-color-theme-light);
 .contact-number:focus {
   color: var(--accent-color);
 }
-.contact-mail {
-font-style: normal;
-font-weight: 500;
-font-size: 14px;
-line-height: 1.14;
-letter-spacing: 0.02em;
-color: var(--primary-text-color-theme-light);
-}
 .contact-mail:hover,
 .contact-mail:focus {
   color: var(--accent-color);
 }
 .modal-btn {
-font-style: normal;
 font-weight: bold;
 font-size: 16px;
 line-height: 1.88;
+cursor: pointer;
 background-color:var(--accent-color);
 color: var(--secondary-text-color-theme-dark);
 }
 .modal-btn-portfolio {
-font-style: normal;
 font-weight: 500;
 font-size: 16px;
 line-height: 1.62;
@@ -137,10 +125,9 @@ border-width: 4px;
 color:var(--secondary-text-color-theme-dark);
 }
 .hero {
-  background-color:  #2F303A;
+  background-color: var(--primary-hero-color);
 }
 .commands {
-font-style: normal;
 font-weight: bold;
 font-size: 36px;
 line-height: 1.24;
@@ -149,16 +136,13 @@ letter-spacing: 0.03em;
 color: var(--secondary-text-color-theme-light);
 }
 .commands-item {
-  font-style: normal;
   font-weight: bold;
-  font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--secondary-text-color-theme-light);
 }
 .name {
-font-style: normal;
 font-weight: 500;
 font-size: 16px;
 line-height: 1.19;
@@ -168,7 +152,6 @@ letter-spacing: 0.03em;
 color: var(--secondary-text-color-theme-light);
 }
 .text-name {
-font-style: normal;
 font-weight: normal;
 font-size: 16px;
 line-height: 1.19;
@@ -178,33 +161,29 @@ letter-spacing: 0.03em;
 color: var(--primary-text-color-theme-light);
 }
 .footer {
-  background-color: #2F303A;
+  background-color: var(--primary-hero-color);
 }
 .address {
-font-style: normal;
 font-weight: normal;
-font-size: 14px;
 line-height: 1.71;
 /* or 171% */
 letter-spacing: 0.03em;
 color:var(--secondary-text-color-theme-dark);
 }
 .address-footer {
-font-style: normal;
 font-weight: normal;
-font-size: 14px;
 line-height: 1.71;
 /* or 171% */
 letter-spacing: 0.03em;
 color: var(--primary-text-color-theme-dark);
 }
 .work {
-  background-color: #FFFFFF;
+  background-color: var(--secondary-text-color-theme-dark);
 }
 .about-commanda {
-  background-color: #F5F4FA;
+  background-color: var(--primary-about-commanda);
 }
 .cell {
- background: #FFFFFF;
-border: 1px solid #EEEEEE;
+ background: var(--secondary-text-color-theme-dark);
+border: 1px solid var(--secondary-cell-color);
 }
