@@ -28,7 +28,7 @@ letter-spacing: 0.03em;
 color: var(--accent-color);
 }
 .logo-black {
-  font-family:var(--secondary-font-family);
+font-family:var(--secondary-font-family);
 font-weight: bold;
 font-size: 26px;
 line-height: 1.19;
@@ -59,6 +59,9 @@ color: var(--primary-logo-color)
 .site-nav .link:hover,
 .site-nav .link:focus {
   color: var(--accent-color);
+}
+.site-nav .link.current {
+  color:#2196F3
 }
 .site-nav .link:active {
   color: var(--site-nav-activ-color);
@@ -164,6 +167,7 @@ color: var(--primary-text-color-theme-light);
   background-color: var(--primary-hero-color);
 }
 .address {
+font-style: normal;
 font-weight: normal;
 line-height: 1.71;
 /* or 171% */
@@ -171,7 +175,7 @@ letter-spacing: 0.03em;
 color:var(--secondary-text-color-theme-dark);
 }
 .address-footer {
-font-weight: normal;
+font-style: normal;
 line-height: 1.71;
 /* or 171% */
 letter-spacing: 0.03em;
