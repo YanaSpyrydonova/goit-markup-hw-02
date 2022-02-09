@@ -61,7 +61,7 @@ color: var(--primary-logo-color)
   color: var(--accent-color);
 }
 .site-nav .link.current {
-  color:#2196F3
+  color: var(--accent-color);
 }
 .site-nav .link:active {
   color: var(--site-nav-activ-color);
